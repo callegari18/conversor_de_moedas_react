@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.linha{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 40px;
+  justify-content: space-around;
+}
+h1{
+  text-align: center;
+  color: beige;
+}
+.aplicativo {
+  margin: auto;
+  max-width: 900px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.App{
+  background-image: url(./img/money.jpg);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.brToeua{
+  background-image: url(./img/brToeua.png);
+  background-repeat: no-repeat;
+  background-size: 400px 250px;
+}
+
+.euaTobr{
+  background-image: url(./img/euaTobr.png);
+  background-repeat: no-repeat;
+  background-size: 400px 250px;
+}
+
+.cadTobr{
+  background-image: url(./img/cadTobr.png);
+  background-repeat: no-repeat;
+  background-size: 400px 250px;
+}
+
+.brTocad{
+  background-image: url(./img/brTocad.png);
+  background-repeat: no-repeat;
+  background-size: 400px 250px;
+}
+
+.eurTobr{
+  background-image: url(./img/eurTobr.png);
+  background-repeat: no-repeat;
+  background-size: 400px 250px;
+}
+
+.brToeur{
+  background-image: url(./img/brToeur.png);
+  background-repeat: no-repeat;
+  background-size: 400px 250px;
 }
