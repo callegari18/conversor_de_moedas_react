@@ -9,27 +9,63 @@ function App() {
 
         <h1>Conversor de moedas</h1>
         <div className="linha">
-          <div className="euaTobr">
-            <Conversor moedaA="USD" moedaB="BRL"></Conversor>      
+          <div className="bandeira">
+            <div className="euaTobr">
+              <div className="mask">
+                <div className="texto_conversor">
+                <Conversor moedaA="USD" moedaB="BRL"></Conversor>      
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="brToeua">
-            <Conversor moedaA="BRL" moedaB="USD"></Conversor>
+          <div className="bandeira">
+            <div className="brToeua">
+              <div className="mask">
+                <div className="texto_conversor">
+                  <Conversor moedaA="BRL" moedaB="USD"></Conversor>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="linha">
-          <div className="cadTobr">
-            <Conversor moedaA="CAD" moedaB="BRL"></Conversor>
+          <div className="bandeira">
+            <div className="cadTobr">
+              <div className="mask">
+                <div className="texto_conversor">
+                  <Conversor moedaA="CAD" moedaB="BRL"></Conversor>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="brTocad">
-            <Conversor moedaA="BRL" moedaB="CAD"></Conversor>
+          <div className="bandeira">
+            <div className="brTocad">
+              <div className="mask">
+                <div className="texto_conversor">
+                  <Conversor moedaA="BRL" moedaB="CAD"></Conversor>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className="linha">
-          <div className="eurTobr">
-            <Conversor moedaA="EUR" moedaB="BRL"></Conversor>
+          <div className="bandeira">
+            <div className="eurTobr">
+              <div className="mask">
+                <div className="texto_conversor">
+                  <Conversor moedaA="EUR" moedaB="BRL"></Conversor>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="brToeur">
-            <Conversor moedaA="BRL" moedaB="EUR"></Conversor>
+          <div className="bandeira">
+            <div className="brToeur">
+              <div className="mask">
+                <div className="texto_conversor">
+                  <Conversor moedaA="BRL" moedaB="EUR"></Conversor>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
           

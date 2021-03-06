@@ -1,5 +1,5 @@
 .linha{
-  display: flex;
+  display : flex;
   margin-top: 40px;
   justify-content: space-around;
 }
@@ -17,16 +17,24 @@ h1{
   background-image: url(./img/money.jpg);
 }
 
-.brToeua{
-  background-image: url(./img/brToeua.png);
-  background-repeat: no-repeat;
-  background-size: 400px 250px;
+.mask{
+  background-color: rgba(255,255,255,0.3);
+}
+.texto_conversor{
+  color: black;
 }
 
 .euaTobr{
   background-image: url(./img/euaTobr.png);
   background-repeat: no-repeat;
-  background-size: 400px 250px;
+  background-size: 390px 240px;
+  
+}
+
+.brToeua{
+  background-image: url(./img/brToeua.png);
+  background-repeat: no-repeat;
+  background-size: 390px 240px;
 }
 
 .cadTobr{
@@ -51,4 +59,73 @@ h1{
   background-image: url(./img/brToeur.png);
   background-repeat: no-repeat;
   background-size: 400px 250px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .linha{
+    display : block;
+    margin-top: 5px;
+    justify-content: space-around;
+  }
+  h1{
+    text-align: center;
+    color: beige;
+  }
+  .aplicativo {
+    margin: auto;
+    max-width: 390px;
+    
+  }
+  .App{
+    background-image: url(../src/img/money.jpg);
+    background-size: cover;
+  }
+
+  .bandeira{
+    margin-bottom: 10px;
+  }
+  
+  .mask{
+    background-color: rgba(255,255,255,0.3);
+  }
+  .texto_conversor{
+    color: black;
+  }
+  
+  .euaTobr{
+    background-image: url(./img/euaTobr.png);
+    background-repeat: no-repeat;
+    background-size: 390px 240px;    
+  }
+  
+  .brToeua{
+    background-image: url(./img/brToeua.png);
+    background-repeat: no-repeat;
+    background-size: 390px 240px;
+  }
+  
+  .cadTobr{
+    background-image: url(./img/cadTobr.png);
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+  }
+  
+  .brTocad{
+    background-image: url(./img/brTocad.png);
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+  }
+  
+  .eurTobr{
+    background-image: url(./img/eurTobr.png);
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+  }
+  
+  .brToeur{
+    background-image: url(./img/brToeur.png);
+    background-repeat: no-repeat;
+    background-size: 400px 250px;
+  }
 }
